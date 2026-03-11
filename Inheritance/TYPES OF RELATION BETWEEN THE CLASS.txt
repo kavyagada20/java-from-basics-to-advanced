@@ -1,0 +1,38 @@
+/*TYPES OF RELATION BETWEEN THE CLASSES
+1.INHERITANCE(IS-A)
+
+Disadvantages:Classes are tightly coupled;i.e. if we can change property of a class;the property of the another class get changes
+
+2.ASSOCIATION(HAS-A)
+eg1:class Student{
+    String name;
+    int roll_no;
+}
+
+here Student HAS-A name
+Student HAS-A nameroll_no
+
+-->by using a new keyword
+eg: class Engine{
+    
+}
+class Car{
+    Engine e = new Engine();
+}
+Car HAS-A Engine
+-->here ,two classes isnt tightly coupled ;change one classes doeesnt changes te property of the other classes
+but,wwe can use 
+
+a.Aggregration-->Weak boinding between 2 class
+e.g. Car has MusicPlayer
+here ,car is called the container object and MusicPlayer is contained object;and even if there doesnt exist the contained object i.e MusicPlayer here then too Car can run even without the music System;that is it does not affects container object and would run,and does not creates the problem in operating the container object(Car) ;thus this is called as weak object 
+b.Composition-->Strong boinding between 2 class
+e.g.1.Car has Engine
+here, car is called the container object and Engine is contained object;and  there doesnt exist the contained object i.e Engine here then ;Car cannot run even without the Engine;that is it does affects container object and would run,and does creates the problem in operating the container object(Car) ;thus this is called as weak object 
+
+Advantages of having relation:-
+1.Code reuseabilty
+2.Cost cutting
+3.Reduce redundancy
+
+*/
