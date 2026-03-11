@@ -1,0 +1,54 @@
+       //Oops -->Object Oriented System/Structure which is a programing paradigm/methology.eg:Smalltalk is 1st oops language .It do also include java,python,C#,C++
+        //Types of the programming paradigm are as follows:1.Obect oriented 2.Procedure oriented 3.Functional oriented 4. Logical oreinted 5. Structural oriented
+        //6 mains pillars of Oops :1.class 2. objects and methods       3.inheritance 4.polymorphism 5.Abstraction 6.Encapulsation
+        //eg. Animals is class and dog is object ;we can collerate method by the tassk eg. Bark(),eat(),sleep()         
+        /*1.Class is the collection of the objects
+        2.Class is not a real world entity it is just a template or a blueprint or prototype
+        3.Class does not occupy the memory
+        Syntax of the class:
+        access-modifier class ClassName{
+        
+        -Methods
+        -Fields
+        -Blocks
+        -Nested class
+        -Constructors
+        
+        Method : A set of codes which performs a particular task
+        -->Advatanges of the methods
+        1.Code reusability
+        2.Code optimization
+        
+        Syntax of the method-->
+        access-modifier return-types methodName(list of parameters){
+        
+        }
+        Proper definiton of the Object:-
+        1.Objects is an instance of class.(Dog is ainstances of animal)
+        2.Object is a Real world entity
+        3.Object Occupies Memory
+        
+        Objects consist of:-
+        1.Identity:-name
+        2.State/Attributes:-here color,breed,age
+        -->REPRESNTS THE INSTANCE VARIABLE
+        3.Behavior:-eat,run -->REPRENTS THE METHOD
+        
+        HOW TO CREATE A OBJECT IN JAVA
+        1.using new keyword
+        2.new instances method
+        3.using clone method
+        4Deserialization method
+        5.factory method
+        
+        1.usind new keyword 
+        a.Declaration:-Animals buzo;//buzo is name of obj
+        b.instantiation:-buzo = new Animal();
+        Animal() is a constructor
+        c.intialization
+        
+        All 3 can Done together
+        Animal buzo=new Animal();
+        buzo.run();//we can call the behaviour of the object behaviour using dot operator
+        
+        */
