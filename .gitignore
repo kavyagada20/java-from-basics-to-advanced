@@ -46,7 +46,4 @@ Thumbs.db
 # *.jpg
 # *.jpeg
 .vscode/
-*.png
-*.jpeg
-*.jpg
 *.class
